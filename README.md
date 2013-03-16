@@ -7,16 +7,16 @@
 Mind
 ====
 Mind est un CMS pour le jeu Dofus 1.29.1.<br>
-Il est dÃ©veloppÃ© en PHP avec PDO.
+Il est développé en PHP avec PDO.
 <br><br>
 Benchmarks : inconnus.<br>
 Performances : inconnues.<br>
-SystÃ¨me de cache : oui.<br>
+Système de cache : oui.<br>
 Informations
 ====
-Aucune autre information, en cours de rÃ©daction.
+Aucune autre information, en cours de rédaction.
 Installation
 ====
-Pour le moment, vous devez Ã©diter le fichier "settings.php", placÃ© dans le dossier "xxx" (non dÃ©fini actuellement).<br>
-Vous devez par la suite exÃ©cuter les patchs *.sql sur votre base de donnÃ©es, pour que votre site soit fonctionnel.<br>
-Vous pourrez par la suite accÃ¨der au panel d'administration via l'URL "http://votresite.com/admin/".
+Pour le moment, vous devez éditer le fichier "settings.php", placé dans le dossier "xxx" (non défini actuellement).<br>
+Vous devez par la suite exécuter les patchs *.sql sur votre base de données, pour que votre site soit fonctionnel.<br>
+Vous pourrez par la suite accèder au panel d'administration via l'URL "http://votresite.com/admin/".

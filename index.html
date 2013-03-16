@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+	   <title>Test</title>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	   <meta name="copyright" content="2013" />
+	   <meta name="description" content="description" />
+	   <meta name="keywords" content="keywords" />
+	   <meta name="author" content="Derezzed & Unge" />
+	   <link href="style/theme.css" rel="stylesheet" type="text/css" media="screen" />
+	   <link rel="shortcut icon" href="<?php echo $ico;?>">
+	   <script type="text/javascript" src="js/jquery.js" ></script>
+	   <script type="text/javascript" src="js/function.js"></script>
+	   <script type="text/javascript" src="js/flash.js"></script>
+	   <script type="text/javascript">
+	   </script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+		
+			<!-- HEADER START -->
+			<div id="header">
+			  <div id="sidebar_top">
+				 <div class="sidebar">
+					<span class="left">
+					   <a href="boutique.php"><img class="boutique" src="images/theme/boutique.png" alt="" /></a> <a href="ogrine.php"><img class="buy_points" src="images/theme/buy_points.png" alt="" /></a>
+					</span>
+					<span class="right">
+					   <div class="realmlist">
+						  <input  readonly="readonly" value="Non connecté" />			   </div>
+						  
+					   <a href="vote.php"><img class="vote" src="images/theme/vote.png" alt="" /></a>
+					</span>
+					<div class="clear"></div>
+				 </div>
+			  </div>
+			</div>
+		   <!-- HEADER END -->
+		   
+		   <!-- MIDDLE START -->
+		   <div id="wrap">
+		   
+				<!-- MENU START -->
+				<div id="menu">
+					<div class="vote">
+						<a href="vote.php"><img width="223" height="153" src="images/theme/pixel.gif" alt="" /></a>
+					</div>
+					<img src="images/theme/menu/compte.png">
+					<ul class="back brown">
+						<form class="login" action="login.php" method="post">
+							<a href="register.php" class="inscrire">Pas de compte ?</a>
+							<div class="champ">
+								<label for="login">Nom de compte :</label><br />
+								<input type="text" value="" name="username">
+							</div>
+							<div class="champ">
+								<label for="password">Mot de passe :</label><br />
+								<input type="password" value="" name="password">
+								<input type="hidden" value="" name="page">
+								<input type="submit" name="send" value="">
+							</div>
+							<br />
+						</form>
+						<img src="images/theme/menu/footer_brown.png">
+						<center>
+							<h2><img width="100px" height="100px" src="images/theme/avatar/<?php echo $classe ;?>-<?php echo $sex ;?>.jpg" /></h2>
+						</center>
+						<center>
+							<img width="70px" height="40px" src="images/theme/personnages/<?php echo $vip ;?>.png" />
+						</center>
+						<li><a href="deblocage.php">Déblocage</a></li>
+						<li><a href="compte.php">Mon compte</a></li>
+						<li><a href="login.php?deconnexion=1">Déconnexion</a></li>
+						<img src="images/theme/menu/footer_brown.png">
+					</ul>
+					<img src="images/theme/menu/accueil.png" alt="" />
+					<ul class="back">
+						<li><a href="index.php">Accueil</a></li>
+						<li><a href="join.php">Téléchargements</a></li>
+						<li><a href="staff.php">Equipe</a></li>
+						<li><a href="livre.php">Livre d'or</a></li>
+					</ul>
+					<img src="images/theme/menu/serveur.png" alt="" />
+					<ul class="back">
+						<li><a href="infos.php">Le serveur</a></li>
+						<li><a href="classement.php">Classement joueurs</a></li>
+						<li><a href="classementg.php">Classement guildes</a></li>
+						<li><a href="classementv.php">Classement votes</a></li>
+						<li><a href="rule.php">Règlement</a></li>
+						<li><b><a href="bugtraker.php">Support</a></b></li>
+					</ul>
+					<img src="images/theme/menu/navigation.png" alt="" />
+					<ul class="back">
+						<li><a href="boutique.php">Marché aux ogrines</a></li>
+						<li><a href="pageperso.php">Armurerie</a></li>
+						<li><a href="vote.php">Vote</a></li>
+					</ul>
+					<img src="images/theme/menu/support.png" alt="" />
+					<ul class="back">
+						<li><a href="faq.php">F.A.Q.</a></li>
+						<li><a href="who.php">Informations</a></li>
+						<li><a href="contact.php">Contact</a></li>
+					</ul>
+				</div>
+				<!-- MENU END -->
+				
+				<!-- CONTENT START -->
+				<div class="wrap-content small">
+					<div id="flash">
+						<div class="img"></div>
+					</div>
+					<div id="box_550">
+						<div class="top">
+							<img src="images/theme/title/accueil.png" alt="" />
+						</div>
+						<div class="back">
+							<div class="box_top"></div>
+							
+							<!-- NEWS START -->
+							<div class="box">
+								<h2>Title</h2>
+								<br/>
+								<p>
+									<img src="./images/theme/avatar/raknaille.jpg" alt="" height="110" width="110" />	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec tristique nisi. Sed libero dui, dapibus et dictum ac, iaculis vitae leo. Integer volutpat nunc semper libero imperdiet eleifend. Duis sodales enim aliquet tortor tempus aliquet lobortis ac risus. Cras porttitor congue velit, ut fringilla mauris tristique ut. Nunc eu dolor nisi, ac hendrerit arcu. Phasellus tristique nisi a mi pulvinar id congue arcu commodo. Nam porta tempus mi, quis venenatis mauris euismod eget. Cras auctor imperdiet purus nec faucibus. Aliquam erat volutpat. Etiam posuere, sem eget ornare pellentesque, sapien risus tristique metus, in venenatis neque ipsum sit amet tortor. Proin neque massa, vulputate in porttitor a, consectetur scelerisque nisi. Donec porta sodales nisi at volutpat. Vestibulum congue ullamcorper velit quis mollis.
+									<br /><br />
+									Proin viverra sodales nibh vitae adipiscing. Phasellus neque velit, faucibus ac suscipit vel, pulvinar eleifend lectus. Donec hendrerit felis sapien, eu vehicula enim. Sed tempus egestas mi nec pellentesque. Mauris tempor vestibulum suscipit. Morbi et dui nisl. Suspendisse volutpat eros at ligula adipiscing fermentum. Aenean sagittis quam id felis dignissim vitae suscipit lorem tempus. Maecenas porta diam vel eros gravida iaculis. Vestibulum eu sem vitae elit mattis dictum a nec lorem. Nam suscipit lacinia aliquam.
+									<br /><br />
+									Vivamus nisl lorem, pharetra non pellentesque ac, blandit non lorem. Morbi id nibh est, lobortis elementum sapien. Nullam molestie ante eu nunc mollis pulvinar. Etiam vitae nisi eros, nec semper mi. Nulla libero est, mollis at ultricies non, ornare et risus. Suspendisse potenti. Proin pharetra tincidunt tortor, ultrices luctus ante iaculis in.
+									<br /><br />
+									Morbi ac nisl lectus. In vulputate, turpis ac aliquet porta, nunc dui mollis libero, nec adipiscing magna lectus fermentum metus. Etiam tortor nulla, lacinia commodo dictum in, dapibus in felis. Nulla fermentum risus id odio lacinia facilisis. Quisque volutpat aliquet massa. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc nisl odio, suscipit at ultricies in, posuere quis lorem. Vivamus nec felis nisl. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut et ligula a leo mollis consectetur venenatis nec mauris. Donec iaculis, nibh vitae cursus mollis, neque nulla sodales lectus, vitae porta urna arcu ultrices tortor. Curabitur eu est vel ipsum posuere feugiat.
+									<br /><br />
+									Nunc egestas magna non erat mattis gravida sed a erat. Nam laoreet nibh at ante lobortis pellentesque. Mauris tristique purus eu massa tempus tincidunt. Fusce mollis nibh non est tristique gravida. Donec eu nibh nulla, sit amet ornare nibh. Nullam in leo ante. Sed nulla quam, porta nec posuere consectetur, elementum vel dolor. Nulla vitae orci ut lectus luctus bibendum.
+								</p>
+								<div class="clear"></div>
+								<div class="real">
+									<a href="commentaire.php?news=<?php  echo $row['id']; ?>" class="commentaire">(0) Commentaires</a> Ecrit par <b>Author</b>
+									<br />
+									<br />
+								</div>	
+								<div class="clear"></div>
+							</div>
+							<!-- NEWS END -->
+							
+							<div class="box_footer"></div>
+						</div>
+						<div class="back_footer"></div>
+					</div>
+				</div>
+				<!-- CONTENT END -->
+				
+				<!-- RIGHT START -->
+				<div class="wrap-right">
+					<div class="img_reg">
+						<a href="register.php" alt="Cadastre-se agora !">
+						<img width="215" height="268" src="images/theme/pixel.gif"></a>
+					</div>
+					<div class="img_recrutement">
+						<a href="infos.php" alt="Recrutement Bientôt !">
+						<img width="215" height="268" src="images/theme/pixel.gif"></a>
+					</div>	
+					<img src="images/theme/menu/statut.png" alt="" />
+					<ul class="statut"> 
+						<li>Test<div class="online right"></div></li>
+						<li>999 comptes</li>
+						<li>999 personnages</li>
+						<li>99 connectés</li>
+					</ul>
+				</div>
+				<!-- RIGHT END -->
+				
+				<div class="clear"></div>
+			</div>
+			<!-- MIDDLE END -->
+			
+		</div>
+		<div class="box_footer"></div>
+		<div class="back_footer"></div>
+		<div class="clear"></div>
+		
+		<!-- FOOTER START -->
+		<div id="footer">
+			<div class="text">
+				Copyright &copy; 2013 <b>Test</b><br />
+				<br />
+				Dofus et Ankama Games sont des marques commerciales et enregistrées par Ankama, entreprise française. Toutes les images utilisées sont la propriété d'Ankama Games. Ce site n'est en aucun cas relié à l'entreprise Ankama Games et au jeu Dofus. <br/><br/>
+				<!--Mind &copy; 2013 - Code Derezzed & Unge -->
+			</div>
+		</div>
+		<!-- FOOTER END -->
+		
+	</body>
+</html>
